@@ -24,7 +24,10 @@ def reverse_array(array)
 end 
 
 def kesha_maker(array)
-  array.collect{|i|"#{array.slice(0,1)}} $ #{array.slice(3,array.size)}"}
+  array.each do |word|
+    i[2] = '$'
+      
+      
 end 
 
 def find_a(array)
