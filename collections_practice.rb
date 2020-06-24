@@ -56,4 +56,6 @@ def add_s(array)
     end 
   end 
   array
-end 
+end
+
+def swap_elements_from_to
