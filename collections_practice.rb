@@ -32,6 +32,7 @@ def find_a(array)
   array.each do |word|
     if word.start_with?("a")
       abc << word 
+    end 
   end 
   abc 
 end 
