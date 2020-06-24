@@ -64,4 +64,3 @@ def swap_elements_from_to(array,index,destination_index)
   array[destination_index] = temp
   array
 end 
-\
