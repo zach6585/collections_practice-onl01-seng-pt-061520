@@ -24,7 +24,7 @@ def reverse_array(array)
 end 
 
 def kesha_maker(array)
-  array.collect{|i|"#{array.split(0,1)}} $ #{array.split(3,array.size)}"}
+  array.collect{|i|"#{array.slice(0,1)}} $ #{array.slice(3,array.size)}"}
 end 
 
 def find_a(array)
