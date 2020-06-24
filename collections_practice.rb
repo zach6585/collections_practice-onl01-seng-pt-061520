@@ -65,4 +65,4 @@ def swap_elements_from_to(array,index,destination_index)
   array
 end 
 
-puts swap_elements_from_to([1,2,3],0,2)
+swap_elements_from_to([1,2,3],0,2).type
