@@ -35,3 +35,12 @@ def find_a(array)
   end 
   abc 
 end 
+
+def sum_array(array)
+  abc = 0 
+  array.each do |number|
+    abc += number 
+  end 
+end 
+
+def add_s(array)
